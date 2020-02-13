@@ -46,3 +46,4 @@ Do not access the Android UI toolkit from outside the UI thread
  
 5. What are thread pools and thread pool executors?
 
+Thread pool is a single FIFO queue comprised of a group of worker threads. The producers (Main thread) sends tasks to the task queue. Whenever a worker thread in the pool becomes available, they remove the tasks from the front of the queue and begin run them.
