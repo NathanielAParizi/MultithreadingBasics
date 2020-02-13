@@ -4,7 +4,7 @@ Illustrating basics of multithreading. In order to post results to the UI thread
 It's best to use runOnUIThread(). AsyncTaskDemo uses AyncTask class to sort an array of random numbers asynchronously.
 AsyncTask is now depricated.
 
-                                    Thread(Runnable{ runOnUIThread() })
+                                    Thread(Runnable{ runOnUIThread{} })
 
 
 ************************************************************************
